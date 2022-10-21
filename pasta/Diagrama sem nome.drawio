@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T19:29:06.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="V70pQP--CxqqRfXUPTRv" version="20.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-21T19:36:31.715Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="UcD55FPz5vDfRCD0yHJI" version="20.5.0" type="github">
   <diagram name="Page-1" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="2066" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -71,8 +71,8 @@
             <mxPoint x="330" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="40" value=" - user&#xa; validation&#xa;&#xa; - password check" style="shape=note;align=left" parent="1" vertex="1">
-          <mxGeometry x="559.9729938271605" y="390.00361111111107" width="120.02700617283949" height="109.82638888888889" as="geometry" />
+        <mxCell id="40" value="- params:&#xa;- seller_id" style="shape=note;align=left" parent="1" vertex="1">
+          <mxGeometry x="380" y="410" width="70.03" height="80" as="geometry" />
         </mxCell>
         <mxCell id="41" value="" style="edgeStyle=none;endArrow=none;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="40" target="QTGd4cIYFPN5efrZr3Zm-113" edge="1">
           <mxGeometry x="1030" y="180" width="100" height="100" as="geometry">
@@ -160,11 +160,14 @@
             <mxPoint x="352.5" y="554.8899999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QTGd4cIYFPN5efrZr3Zm-119" value="Persist/Update title Item" style="edgeStyle=elbowEdgeStyle;elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom" edge="1" parent="1">
+        <mxCell id="QTGd4cIYFPN5efrZr3Zm-119" value="get data Item" style="edgeStyle=elbowEdgeStyle;elbow=vertical;verticalLabelPosition=top;verticalAlign=bottom" edge="1" parent="1">
           <mxGeometry x="350" y="572.89" width="100" height="100" as="geometry">
             <mxPoint x="352.5" y="534.8899999999999" as="sourcePoint" />
             <mxPoint x="509.78395061728406" y="534.8899999999999" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QTGd4cIYFPN5efrZr3Zm-123" value="- params:&#xa;- seller_id" style="shape=note;align=left" vertex="1" parent="1">
+          <mxGeometry x="580" y="410" width="70.03" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
